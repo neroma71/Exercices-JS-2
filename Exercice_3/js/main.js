@@ -1,5 +1,5 @@
 let lastname = document.querySelector('#lastname');
 
-lastname.addEventListener('keydown',()=>{
+lastname.addEventListener('keyup',()=>{
     alert(lastname.value);
 });
